@@ -8,6 +8,6 @@ the members of the 113th US Congress.
 Munging
 -------
 Miller tests LFRM on a NIPS authorship dataset produced by Globerson et al
-(2007). That set is available (here)[http://ai.stanford.edu/~gal/]
+(2007). That set is available [here](http://ai.stanford.edu/~gal/)
 
 I've munged this data to reproduce Miller's NIPS link matrix.
