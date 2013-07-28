@@ -1,0 +1,32 @@
+
+Dynamic Probabilistic Models for Latent Feature Propagation in Social Networks
+Heaukulani & Gharamani, ICML 2013
+
+Describes a model that can (1) predict missing links in a social network and (2) forecast upcoming links in the network. Uses MCMC to obtain info about a modified HMM.
+
+Statistical Methods for Network Dynamics
+Snijders 2008??
+
+Introduces exponential random graph models.
+
+Nonparametric Latent Feature Models for Link Prediction
+Miller et al., ICML 2009
+
+Static network model in Heaukulani 2009. Would be a good first attempt for my work.
+>> Get the NIPS coauthorship data in [22] for testing.
+>> http://ai.stanford.edu/~gal/data.html
+
+>> What are covariates?
+
+In this paper, we present the nonparametric latent feature relational model, a Bayesian nonparametric model in which each entity has binary-valued latent features that influences its relations. This model allows us to simultaneously infer how many latent features there are while at the same time inferring what features each entity has and how those features influence the observations. 
+
+An Infinite Latent Attribute Model for Network Data
+Palla et al., ICML 2012
+
+>> See stochastic block model (SB) proposed in Nowicki and Snijders (2001)
+
+>> What are Indian buffet processes and Chinese restaurant processes? See Griffiths and Ghahramani (2005)
+
+>> See: There are several models that have been proposed for discovering hierarchical structure in relational data (Girvan and Newman, 2002; Roy et al., 2007).
+
+We propose a model in which objects are characterised by a latent feature vector. Each feature is itself partitioned into disjoint groups (subclusters), corresponding to a second layer of hierarchy. In experimen-tal comparisons, the model achieves signif-icantly improved predictive performance on social and biological link prediction tasks. The results indicate that models with a single layer hierarchy over-simplify real networks.
